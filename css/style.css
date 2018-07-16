@@ -1,0 +1,161 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.bg-light{
+    background-color: #D3F8FF!important;
+    height: 10rem;
+}
+.bgco{
+    background-color: #fff;
+}
+
+.bgimg img{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+    
+.jumbotron{
+    background-color: #fff;
+}
+.row{
+    margin-bottom: 2rem;
+}
+.display-4{
+        font-size: 2.5rem;
+    }
+    .lead{
+        font-size: 1.2rem;
+    }
+
+.logo img{
+    width: 20%;
+    height: auto;
+}
+.logo1 img{
+
+    width: 80%;
+    height: auto;
+}
+
+.navbar-toggler{
+    margin: 1rem;
+}
+
+.buttons{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    padding: 1rem;
+}
+
+.page-footer{
+    background-color: #D3F8FF;
+}
+
+.pic img{
+    width: 80%;
+    height: auto;
+}
+
+#active-button{
+    width: 6rem;
+    height: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 30rem) {
+	.container{
+		width: 30rem;
+	}
+	body {
+		font-size: 0.75rem;
+		line-height: 1.4;
+    }
+    .display-4{
+        font-size: 1.5rem;
+    }
+    .lead{
+        font-size: 1.2rem;
+    }
+    .logo img{
+    width: 30%;
+    height: auto;
+    }
+    .logo1 img{
+
+    width: 60%;
+    height: auto;
+    }
+    .pic img{
+    width: 100%;
+    height: auto;
+    }
+}
+
+    
+    
+@media only screen and (min-width: 30rem) {
+	.container{
+		width: 30rem;
+    }      
+	body {
+		font-size: 1rem;
+		line-height: 1.4;
+	}   
+    .display-4{
+        font-size: 1.5rem;
+    }
+    .lead{
+        font-size: 1.2rem;
+    }
+    .logo img{
+    width: 30%;
+    height: auto;
+    }
+    .logo1 img{
+
+    width: 60%;
+    height: auto;
+    }
+    .pic img{
+    width: 100%;
+    height: auto;
+    }   
+}
+@media only screen and (min-width: 60rem) {
+	.container{
+		width: 60rem;
+    }   
+    .body{
+        font-size: 1rem;
+    }	
+    .display-4{
+        font-size: 1.5rem;
+    }  
+    .lead{
+        font-size: 1.2rem;
+    }    
+    .logo img{
+    width: 25%;
+    height: auto;
+    }    
+    .logo1 img{
+    width: 50%;
+    height: auto;
+    }    
+    .pic img{
+    width: 80%;
+    height: auto;
+    }
+}
+
+    
+
