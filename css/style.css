@@ -1,11 +1,17 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+.container{
+		width: 30rem;
+	}
+body
     line-height: 1.5;
 }
 
 h1, h5{
     font-family: 'Source Serif Pro', serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
 }
 .bg-light{
     background-color: #D3F8FF!important;
@@ -28,10 +34,10 @@ h1, h5{
     margin-bottom: 2rem;
 }
 .display-4{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
-    .lead{
-        font-size: 1.2rem;
+.lead{
+        font-size: 1rem;
     }
 
 .logo img{
@@ -73,45 +79,14 @@ h3{
     color: #fff;
 }
 
-
-
-@media only screen and (max-width: 30rem) {
-	.container{
-		width: 30rem;
-	}
-	body {
-		font-size: 0.75rem;
-		line-height: 1.4;
-    }
-    .display-4{
-        font-size: 1.5rem;
-    }
-    .lead{
-        font-size: 1rem;
-    }
-    .logo img{
-    width: 30%;
-    height: auto;
-    }
-    .logo1 img{
-
-    width: 60%;
-    height: auto;
-    }
-    .pic img{
-    width: 100%;
-    height: auto;
-    }
-}
-
-    
+/*Mobile View*/
     
 @media only screen and (min-width: 30rem) {
 	.container{
 		width: 30rem;
     }      
 	body {
-		font-size: 1rem;
+		font-size: 0.75rem;
 		line-height: 1.4;
 	}   
     .display-4{
@@ -134,13 +109,17 @@ h3{
     height: auto;
     }   
 }
+
+/*Tablet - Desktop View*/
 @media only screen and (min-width: 60rem) {
 	.container{
 		width: 60rem;
     }   
-    .body{
+    
+    p{
+        font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
-    }	
+    }
     .display-4{
         font-size: 2.2rem;
     }  
